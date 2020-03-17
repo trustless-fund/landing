@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 import heroImage from '../assets/hero-image.svg';
 
-// import '../layout/components/hero.sass';
+import '../layout/components/hero.sass';
 
 class Hero extends Component {
   render() {
@@ -14,7 +14,10 @@ class Hero extends Component {
         <h4 className="hero__subheader">
           Trustless Fund is an advanced timelock for ETH and ERC-20 assets. 
         </h4>
-        <img src={heroImage} alt="Trustless Fund Interface" />
+        <img 
+          src={heroImage} 
+          alt="Trustless Fund Interface" 
+          className="hero__image" />
       </section>
     );
   }
