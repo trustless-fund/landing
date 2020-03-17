@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
 
+import Nav from './components/Nav';
+
 import './layout/config/_base.sass';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <h1>React Boilerplate</h1>
+      <div className="app">
+        <Nav />
       </div>
     );
   }
