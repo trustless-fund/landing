@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/trustless-fund-landing/static/css/main.de580ef9.chunk.css",
-    "main.js": "/trustless-fund-landing/static/js/main.795da277.chunk.js",
-    "main.js.map": "/trustless-fund-landing/static/js/main.795da277.chunk.js.map",
-    "runtime-main.js": "/trustless-fund-landing/static/js/runtime-main.82a0d4b7.js",
-    "runtime-main.js.map": "/trustless-fund-landing/static/js/runtime-main.82a0d4b7.js.map",
-    "static/js/2.3f467927.chunk.js": "/trustless-fund-landing/static/js/2.3f467927.chunk.js",
-    "static/js/2.3f467927.chunk.js.map": "/trustless-fund-landing/static/js/2.3f467927.chunk.js.map",
-    "index.html": "/trustless-fund-landing/index.html",
-    "precache-manifest.0d7d6c15b084213b4592de055d14ef9b.js": "/trustless-fund-landing/precache-manifest.0d7d6c15b084213b4592de055d14ef9b.js",
-    "service-worker.js": "/trustless-fund-landing/service-worker.js",
-    "static/css/main.de580ef9.chunk.css.map": "/trustless-fund-landing/static/css/main.de580ef9.chunk.css.map",
-    "static/media/hero-image.svg": "/trustless-fund-landing/static/media/hero-image.b2851be8.svg",
-    "static/media/lock.png": "/trustless-fund-landing/static/media/lock.c0b18cd8.png"
+    "main.css": "/landing/static/css/main.de580ef9.chunk.css",
+    "main.js": "/landing/static/js/main.9ea2103c.chunk.js",
+    "main.js.map": "/landing/static/js/main.9ea2103c.chunk.js.map",
+    "runtime-main.js": "/landing/static/js/runtime-main.74defc2b.js",
+    "runtime-main.js.map": "/landing/static/js/runtime-main.74defc2b.js.map",
+    "static/js/2.3f467927.chunk.js": "/landing/static/js/2.3f467927.chunk.js",
+    "static/js/2.3f467927.chunk.js.map": "/landing/static/js/2.3f467927.chunk.js.map",
+    "index.html": "/landing/index.html",
+    "precache-manifest.cf43c638013ca9d13f8c7098b2c0a976.js": "/landing/precache-manifest.cf43c638013ca9d13f8c7098b2c0a976.js",
+    "service-worker.js": "/landing/service-worker.js",
+    "static/css/main.de580ef9.chunk.css.map": "/landing/static/css/main.de580ef9.chunk.css.map",
+    "static/media/hero-image.svg": "/landing/static/media/hero-image.b2851be8.svg",
+    "static/media/lock.png": "/landing/static/media/lock.c0b18cd8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.82a0d4b7.js",
+    "static/js/runtime-main.74defc2b.js",
     "static/js/2.3f467927.chunk.js",
     "static/css/main.de580ef9.chunk.css",
-    "static/js/main.795da277.chunk.js"
+    "static/js/main.9ea2103c.chunk.js"
   ]
 }
