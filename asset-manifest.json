@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/trustless-fund-landing/static/css/main.de580ef9.chunk.css",
+    "main.js": "/trustless-fund-landing/static/js/main.795da277.chunk.js",
+    "main.js.map": "/trustless-fund-landing/static/js/main.795da277.chunk.js.map",
+    "runtime-main.js": "/trustless-fund-landing/static/js/runtime-main.82a0d4b7.js",
+    "runtime-main.js.map": "/trustless-fund-landing/static/js/runtime-main.82a0d4b7.js.map",
+    "static/js/2.3f467927.chunk.js": "/trustless-fund-landing/static/js/2.3f467927.chunk.js",
+    "static/js/2.3f467927.chunk.js.map": "/trustless-fund-landing/static/js/2.3f467927.chunk.js.map",
+    "index.html": "/trustless-fund-landing/index.html",
+    "precache-manifest.0d7d6c15b084213b4592de055d14ef9b.js": "/trustless-fund-landing/precache-manifest.0d7d6c15b084213b4592de055d14ef9b.js",
+    "service-worker.js": "/trustless-fund-landing/service-worker.js",
+    "static/css/main.de580ef9.chunk.css.map": "/trustless-fund-landing/static/css/main.de580ef9.chunk.css.map",
+    "static/media/hero-image.svg": "/trustless-fund-landing/static/media/hero-image.b2851be8.svg",
+    "static/media/lock.png": "/trustless-fund-landing/static/media/lock.c0b18cd8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82a0d4b7.js",
+    "static/js/2.3f467927.chunk.js",
+    "static/css/main.de580ef9.chunk.css",
+    "static/js/main.795da277.chunk.js"
+  ]
+}
