@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import lock from '../assets/lock.png';
+
 import '../layout/components/nav.sass';
 
 class Nav extends Component {
@@ -7,6 +9,10 @@ class Nav extends Component {
     return(
       <nav className="nav">
         <h1 className="nav__header">
+          <img 
+            src={lock} 
+            alt="Trustless Fund Logo"
+            className="nav__logo" />
           Trustless Fund
         </h1>
         <button className="nav__button">
