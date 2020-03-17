@@ -1,5 +1,6 @@
 @import '../config/_colors'
 @import '../config/_variables'
+@import '../config/_breakpoints'
   
 .nav
   height: $nav-height
@@ -8,12 +9,20 @@
   align-items: center
   justify-content: space-between
   padding: 0 110px
+  +media($breakpoint-md)
+    padding: 0 40px
+  +media($breakpoint-sm)
+    padding: 0 24px
 
 .nav__header
   font-size: 24px
   font-weight: 500
   display: flex
   align-items: center
+  +media($breakpoint-sm)
+    font-size: 20px
+  +media($breakpoint-xs)
+    font-size: 16px
 
 .nav__logo
   width: 32px
@@ -28,3 +37,7 @@
   font-size: 18px
   font-family: Roboto, sans-serif
   font-weight: 300
+  +media($breakpoint-sm)
+    font-size: 16px
+  +media($breakpoint-xs)
+    font-size: 12px

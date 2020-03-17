@@ -1,5 +1,6 @@
 @import '../config/_colors'
 @import '../config/_variables'
+@import '../config/_breakpoints'
   
 .hero
   display: flex
@@ -11,12 +12,32 @@
 .hero__header
   font-size: 48px
   font-weight: 500
-  margin-bottom: 0
+  margin-bottom: 16px
+  max-width: 90vw
+  text-align: center
+  +media($breakpoint-md)
+    font-size: 36px
+  +media($breakpoint-sm)
+    font-size: 30px
+    margin-bottom: 0
+  +media($breakpoint-xs)
+    font-size: 24px
 
 .hero__subheader
   font-size: 24px
   font-weight: 300
+  max-width: 90vw
+  text-align: center
+  +media($breakpoint-md)
+    font-size: 20px
+  +media($breakpoint-sm)
+    font-size: 18px
+  +media($breakpoint-xs)
+    font-size: 16px
 
 .hero__image
-  margin-top: 32px
+  margin-top: 48px
   width: 500px
+  max-width: 90vw
+  +media($breakpoint-sm)
+    margin-top: 24px
