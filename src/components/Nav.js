@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import '../layout/components/nav.sass';
+
 class Nav extends Component {
   render() {
     return(
