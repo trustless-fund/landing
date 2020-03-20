@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 
-import twitter from '../assets/twitter.png';
-import github from '../assets/github.png';
+import twitter from '../assets/twitter.svg';
+import github from '../assets/github.svg';
+
+import '../layout/components/footer.sass';
 
 class Footer extends Component {
   render() {
