@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import lock from '../assets/lock.png';
+import lock from '../assets/logo-circle.svg';
 
 import '../layout/components/nav.sass';
 
