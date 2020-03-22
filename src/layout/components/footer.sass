@@ -1,5 +1,6 @@
 @import '../config/_variables'
 @import '../config/_colors'
+@import '../config/_breakpoints'
   
 .footer
   height: $footer-height
@@ -8,6 +9,10 @@
   align-items: center
   justify-content: space-between
   padding: 0 110px
+  +media($breakpoint-md)
+    padding: 0 40px
+  +media($breakpoint-sm)
+    padding: 0 24px
 
 .footer__disclaimer
   flex-grow: 1
