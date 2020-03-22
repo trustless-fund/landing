@@ -9,6 +9,10 @@ class Footer extends Component {
   render() {
     return(
       <footer className="footer">
+        <p className="footer__disclaimer">
+          {/* TODO: Actually get the current year */}
+          © 2020 Trustless Fund
+        </p>
         <a 
           href="https://github.com/trustless-fund" 
           target="_blank"

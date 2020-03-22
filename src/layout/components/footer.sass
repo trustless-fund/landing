@@ -1,11 +1,17 @@
 @import '../config/_variables'
+@import '../config/_colors'
   
 .footer
   height: $footer-height
   width: 100%
   display: flex
   align-items: center
-  justify-content: center
+  justify-content: space-between
+  padding: 0 110px
+
+.footer__disclaimer
+  flex-grow: 1
+  color: $color-black
 
 .footer__link
   text-decoration: none
