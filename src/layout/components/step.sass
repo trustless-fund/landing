@@ -1,0 +1,39 @@
+@import '../config/_colors'
+  
+.step
+  display: flex
+  align-items: center
+  justify-content: space-between
+  height: 500px
+  width: 750px
+  margin: 0 auto
+
+.step:nth-of-type(odd)
+  flex-direction: row-reverse
+
+.step__side
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  justify-content: flex-start
+  height: 300px
+  width: 47%
+  margin-top: 32px
+
+.step__header
+  font-size: 32px
+  font-weight: 400
+  color: $color-black
+  margin-bottom: 16px
+
+.step__info
+  font-size: 18px
+  font-weight: 300
+  color: $color-black
+  margin: 0
+
+.step__image
+  width: 47%
+
+.step__image--lock
+  width: 40%
