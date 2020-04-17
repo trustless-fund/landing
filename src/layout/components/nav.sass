@@ -20,6 +20,7 @@
   display: flex
   align-items: center
   color: $color-black
+  flex-grow: 1
   +media($breakpoint-sm)
     font-size: 20px
   +media($breakpoint-xs)
@@ -29,15 +30,22 @@
   width: 32px
   margin-right: 8px
 
+.nav__link
+  font-size: 18px
+  font-weight: 300
+  color: $color-black
+  margin-right: 32px
+
 .nav__button
-  background: $color-white
-  color: $color-gold
+  background: linear-gradient(to bottom, $color-gold, $color-gold-dark)
+  color: $color-white
   border: 1px solid $color-gold
   border-radius: 3px
   padding: 8px 16px
   font-size: 18px
   font-family: Roboto, sans-serif
   font-weight: 300
+  text-decoration: none
   +media($breakpoint-sm)
     font-size: 16px
   +media($breakpoint-xs)

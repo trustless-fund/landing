@@ -15,9 +15,19 @@ class Nav extends Component {
             className="nav__logo" />
           Trustless Fund
         </h1>
-        <button className="nav__button">
-          Coming Soon
-        </button>
+        <p className="nav__link">
+          Learn More
+        </p>
+        <p className="nav__link">
+          Docs
+        </p>
+        <a 
+          className="nav__button"
+          href="https://app.trustless.fund/"
+          target="_blank"
+          rel="noopener noreferrer">
+          Visit App
+        </a>
       </nav>
     );
   }
