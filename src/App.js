@@ -35,7 +35,7 @@ class App extends Component {
           image={Portfolio}
           alt="Portfolio" />
         <Step 
-          header="Lock it in"
+          header="Lock in your money"
           info="Your fund is locked in until your 
           expiration date. You’re always free to 
           deposit more tokens at any time."
