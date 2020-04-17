@@ -1,15 +1,22 @@
 @import '../config/_colors'
   
 .step
+  height: 500px
+  width: 100%
+
+.step:nth-of-type(even)
+  background: $color-grey-light
+
+  .step__content
+    flex-direction: row-reverse
+
+.step__content
   display: flex
   align-items: center
   justify-content: space-between
-  height: 500px
-  width: 750px
+  height: 100%
   margin: 0 auto
-
-.step:nth-of-type(odd)
-  flex-direction: row-reverse
+  width: 750px
 
 .step__side
   display: flex
