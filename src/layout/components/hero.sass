@@ -4,17 +4,22 @@
   
 .hero
   display: flex
-  flex-direction: column
   align-items: center
   justify-content: center
   height: calc(100vh - #{$nav-height + $footer-height})
+  padding: 0 $hero-padding
+
+.hero__left
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  width: 40%
 
 .hero__header
   font-size: 48px
   font-weight: 500
   margin-bottom: 0
   max-width: 90vw
-  text-align: center
   color: $color-black
   +media($breakpoint-md)
     font-size: 36px
@@ -28,7 +33,6 @@
   font-size: 24px
   font-weight: 300
   max-width: 90vw
-  text-align: center
   margin-top: 16px
   color: $color-black
   +media($breakpoint-md)
@@ -38,10 +42,22 @@
   +media($breakpoint-xs)
     font-size: 16px
 
+.hero__button
+  height: 60px
+  font-size: 32px
+  font-weight: 300
+  width: 360px
+  background: linear-gradient(to bottom, $color-gold, $color-gold-dark)
+  display: flex
+  align-items: center
+  justify-content: center
+  text-decoration: none
+  color: white
+
 .hero__image
   margin-top: 32px
   margin-bottom: 32px
-  width: 400px
+  width: 500px
   max-width: 90vw
   +media($breakpoint-sm)
     margin-top: 24px
