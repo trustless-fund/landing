@@ -5,6 +5,18 @@ import lock from '../assets/logo-circle.svg';
 import '../layout/components/nav.sass';
 
 class Nav extends Component {
+  componentDidMount = () => {
+    this.learnMoreOnClick();
+  }
+
+  learnMoreOnClick = () => {
+    const learnMoreLink = document.querySelector('.nav__link--learn-more');
+    const learnMore = document.querySelector('#learn-more');
+    learnMoreLink.addEventListener('click', () => {
+      learnMore.scrollIntoView({behavior: 'smooth'});
+    });
+  }
+
   render() {
     return(
       <nav className="nav">
@@ -15,11 +27,9 @@ class Nav extends Component {
             className="nav__logo" />
           Trustless Fund
         </h1>
-        <a 
-          className="nav__link"
-          href="#learn-more">
+        <p className="nav__link nav__link--learn-more">
           Learn More
-        </a>
+        </p>
         <a 
           className="nav__link"
           href="https://docs.trustless.fund/"
