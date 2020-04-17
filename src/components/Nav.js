@@ -13,7 +13,7 @@ class Nav extends Component {
     const learnMoreLink = document.querySelector('.nav__link--learn-more');
     const learnMore = document.querySelector('#learn-more');
     learnMoreLink.addEventListener('click', () => {
-      learnMore.scrollIntoView({behavior: 'smooth'});
+      learnMore.scrollIntoView({behavior: 'smooth', block: 'center'});
     });
   }
 
