@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import Step from './components/Step';
+import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
 
 import Calendar from './assets/calendar.png';
@@ -40,6 +41,7 @@ class App extends Component {
           image={Lock}
           alt="Lock"
           imageClass=" step__image--lock" />
+        <CallToAction />
         <Footer />
       </div>
     );
