@@ -5,7 +5,9 @@ import '../layout/components/step.sass';
 class Step extends Component {
   render() {
     return (
-      <section className="step">
+      <section 
+        className="step"
+        id={this.props.id ? 'learn-more' : null}>
         <div className="step__side">
           <h2 className="step__header">
             {this.props.header}

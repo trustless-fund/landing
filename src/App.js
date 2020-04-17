@@ -25,7 +25,8 @@ class App extends Component {
           and choose who you want them to go to 
           once the time runs out."
           image={Calendar}
-          alt="Expiration" />
+          alt="Expiration"
+          id={true} />
         <Step 
           header="Create a portfolio"
           info="Deposit ETH & ERC-20 tokens. 
