@@ -38,7 +38,7 @@ class App extends Component {
           header="Lock it in"
           info="Your fund is locked in until your 
           expiration date. You’re always free to 
-          deposit more tokens."
+          deposit more tokens at any time."
           image={Lock}
           alt="Lock"
           imageClass=" step__image--lock" />
