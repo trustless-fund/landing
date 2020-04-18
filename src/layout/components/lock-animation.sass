@@ -1,0 +1,49 @@
+#lock
+  animation: 3s lock infinite linear
+
+#shadow
+  animation: 3s shadow infinite linear
+  transform-origin: center
+
+#head
+  animation: 5s head infinite linear
+  transform-origin: bottom
+  transform-box: fill-box
+
+#hanging-leg
+  transform: rotate(5deg)
+  animation: 5s leg infinite linear
+  transform-origin: top-left
+  transform-box: fill-box
+
+@keyframes lock
+  0%
+    transform: translateY(0)
+  50%
+    transform: translateY(20px)
+  100%
+    transform: translateY(0)
+
+@keyframes shadow
+  0%
+    transform: translateY(0) scale(1.1)
+  50%
+    transform: translateY(20px) scale(1)
+  100%
+    transform: translateY(0) scale(1.1)
+
+@keyframes head
+  0%
+    transform: rotate(0)
+  50%
+    transform: rotate(5deg)
+  100%
+    transform: rotate(0)
+
+@keyframes leg
+  0%
+    transform: rotate(5deg)
+  50%
+    transform: rotate(-5deg)
+  100%
+    transform: rotate(5deg)
