@@ -1,4 +1,5 @@
 @import '../config/_colors'
+@import '../config/_breakpoints'
   
 .call-to-action
   height: 300px
@@ -15,6 +16,9 @@
   max-width: 90vw
   text-align: center
 
+  +media($breakpoint-sm)
+    font-size: 24px
+
 .call-to-action__button
   font-size: 32px
   color: $color-white
@@ -28,3 +32,6 @@
   text-decoration: none
   border-radius: 3px
   max-width: 90vw
+
+  +media($breakpoint-sm)
+    font-size: 24px
