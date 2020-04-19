@@ -19,9 +19,9 @@ class App extends Component {
         <Nav />
         <Hero />
         <Step 
-          header="Set a beneficiary and 
+          header="Set a beneficiary & 
           expiration date"
-          info="Lock in your tokens for as long as you like 
+          info="Lock in your tokens for as long as you'd like 
           and choose who you want them to go to 
           once the time runs out."
           image={Calendar}
@@ -29,16 +29,12 @@ class App extends Component {
           id={true} />
         <Step 
           header="Create a portfolio"
-          info="Deposit ETH & ERC-20 tokens. 
-          Whether you'd like a speculative or 
-          interest bearing fund, you decide."
+          info="Deposit ETH & ERC-20 tokens with the freedom to choose your risk tolerance and investment strategy."
           image={Portfolio}
           alt="Portfolio" />
         <Step 
           header="Lock in your money"
-          info="Your fund is locked in until your 
-          expiration date. You’re always free to 
-          deposit more tokens at any time."
+          info="Your fund is locked in until your expiration date, but you’re free to deposit more tokens at any time."
           image={Lock}
           alt="Lock"
           imageClass=" step__image--lock" />
