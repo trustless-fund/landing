@@ -1,49 +1,42 @@
 #lock
-  animation: 3s lock infinite linear
+  animation: 2s lock infinite linear alternate
 
 #shadow
-  animation: 3s shadow infinite linear
+  animation: 2s shadow infinite linear alternate
   transform-origin: center
+  transform-box: fill-box
 
 #head
-  animation: 5s head infinite linear
+  animation: 2.5s head infinite linear alternate
   transform-origin: bottom
   transform-box: fill-box
 
 #hanging-leg
   transform: rotate(5deg)
-  animation: 5s leg infinite linear
+  animation: 2.5s leg infinite linear alternate
   transform-origin: top-left
   transform-box: fill-box
 
 @keyframes lock
   0%
     transform: translateY(0)
-  50%
-    transform: translateY(20px)
   100%
-    transform: translateY(0)
+    transform: translateY(30px)
 
 @keyframes shadow
   0%
-    transform: translateY(0) scale(1.1)
-  50%
-    transform: translateY(20px) scale(1)
+    transform: translateY(30px) scale(1.25)
   100%
-    transform: translateY(0) scale(1.1)
+    transform: translateY(0) scale(1)
 
 @keyframes head
   0%
     transform: rotate(0)
-  50%
-    transform: rotate(5deg)
   100%
-    transform: rotate(0)
+    transform: rotate(5deg)
 
 @keyframes leg
   0%
     transform: rotate(5deg)
-  50%
-    transform: rotate(-5deg)
   100%
-    transform: rotate(5deg)
+    transform: rotate(-5deg)
