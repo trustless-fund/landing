@@ -1,14 +1,21 @@
 @import '../config/_colors'
+@import '../config/_breakpoints'
   
 .step
   height: 500px
   width: 100%
+
+  +media($breakpoint-lg)
+    height: auto
 
 .step:nth-of-type(even)
   background: $color-grey-light
 
   .step__content
     flex-direction: row-reverse
+
+    +media($breakpoint-lg)
+      flex-direction: column 
 
 .step__content
   display: flex
@@ -17,6 +24,10 @@
   height: 100%
   margin: 0 auto
   width: 750px
+  
+  +media($breakpoint-lg)
+    flex-direction: column 
+    padding: 48px
 
 .step__side
   display: flex
@@ -27,20 +38,38 @@
   width: 47%
   margin-top: 32px
 
+  +media($breakpoint-lg)
+    width: 100%
+    align-items: center
+    height: auto
+    margin-top: 0
+
 .step__header
   font-size: 32px
   font-weight: 400
   color: $color-black
   margin-bottom: 16px
+  max-width: 90vw
+  
+  +media($breakpoint-lg)
+    text-align: center
+    margin-top: 0
 
 .step__info
   font-size: 18px
   font-weight: 300
   color: $color-black
   margin: 0
+  max-width: 90vw
+
+  +media($breakpoint-lg)
+    text-align: center
 
 .step__image
   width: 47%
+
+  +media($breakpoint-lg)
+    margin-top: 32px
 
 .step__image--lock
   width: 40%
