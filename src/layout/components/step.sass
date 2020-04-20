@@ -38,12 +38,19 @@
   height: 300px
   width: 47%
   margin-top: 32px
+  opacity: 0
 
   +media($breakpoint-lg)
     width: 100%
     align-items: center
     height: auto
     margin-top: 0
+
+.step:nth-of-type(even) .step__side.active
+  animation: 0.3s fadeleft 0.2s forwards ease-out
+
+.step:nth-of-type(odd) .step__side.active
+  animation: 0.3s faderight forwards ease-out
 
 .step__header
   font-size: 32px
@@ -72,11 +79,18 @@
 
 .step__image
   width: 47%
+  opacity: 0
 
   +media($breakpoint-lg)
     margin-top: 32px
   +media($breakpoint-sm)
     width: 100%
+
+.step:nth-of-type(even) .step__image.active
+  animation: 0.3s faderight forwards ease-out
+
+.step:nth-of-type(odd) .step__image.active
+  animation: 0.3s fadeleft 0.2s forwards ease-out
 
 .step__image--lock
   width: 40%

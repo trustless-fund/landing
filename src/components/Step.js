@@ -3,6 +3,24 @@ import React, {Component} from 'react';
 import '../layout/components/step.sass';
 
 class Step extends Component {
+  componentDidMount = () => {
+    this.triggerAnimation();
+  }
+
+  triggerAnimation = () => {
+    const stepSides = Array.from(document.querySelectorAll('.step__side'));
+    const stepImages = Array.from(document.querySelectorAll('.step__image'));
+    const elements = stepSides.concat(stepImages);
+
+    window.onscroll = () => {
+      elements.forEach(element => {
+        if(window.scrollY + (window.innerHeight / 4) * 3 > element.offsetTop) {
+          element.classList.add('active');
+        }
+      });
+    }
+  }
+
   render() {
     return (
       <section 
