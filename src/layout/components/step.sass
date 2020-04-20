@@ -49,8 +49,14 @@
 .step:nth-of-type(even) .step__side.active
   animation: 0.3s fadeleft 0.2s forwards ease-out
 
+  +media($breakpoint-lg)
+    animation: 0.3s fadein 0.2s forwards ease-out
+
 .step:nth-of-type(odd) .step__side.active
   animation: 0.3s faderight forwards ease-out
+
+  +media($breakpoint-lg)
+    animation: 0.3s fadein 0.2s forwards ease-out
 
 .step__header
   font-size: 32px
@@ -89,8 +95,14 @@
 .step:nth-of-type(even) .step__image.active
   animation: 0.3s faderight forwards ease-out
 
+  +media($breakpoint-lg)
+    animation: 0.3s fadein 0.2s forwards ease-out
+
 .step:nth-of-type(odd) .step__image.active
   animation: 0.3s fadeleft 0.2s forwards ease-out
+
+  +media($breakpoint-lg)
+    animation: 0.3s fadein 0.2s forwards ease-out
 
 .step__image--lock
   width: 40%
