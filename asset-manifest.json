@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9ae45af.chunk.css",
+    "main.css": "/static/css/main.82cf3ce9.chunk.css",
     "main.js": "/static/js/main.1bb703f3.chunk.js",
     "main.js.map": "/static/js/main.1bb703f3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2312a126.js",
@@ -8,9 +8,9 @@
     "static/js/2.d4360338.chunk.js": "/static/js/2.d4360338.chunk.js",
     "static/js/2.d4360338.chunk.js.map": "/static/js/2.d4360338.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2eb4fbd69605a137eb7b21fe1f6ba977.js": "/precache-manifest.2eb4fbd69605a137eb7b21fe1f6ba977.js",
+    "precache-manifest.f77da15db425aff181e93fa310a0024c.js": "/precache-manifest.f77da15db425aff181e93fa310a0024c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e9ae45af.chunk.css.map": "/static/css/main.e9ae45af.chunk.css.map",
+    "static/css/main.82cf3ce9.chunk.css.map": "/static/css/main.82cf3ce9.chunk.css.map",
     "static/media/calendar.png": "/static/media/calendar.cfa50899.png",
     "static/media/discord.png": "/static/media/discord.087f9d2f.png",
     "static/media/github.svg": "/static/media/github.d0fa6e8a.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.2312a126.js",
     "static/js/2.d4360338.chunk.js",
-    "static/css/main.e9ae45af.chunk.css",
+    "static/css/main.82cf3ce9.chunk.css",
     "static/js/main.1bb703f3.chunk.js"
   ]
 }
