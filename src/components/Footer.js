@@ -38,7 +38,7 @@ class Footer extends Component {
             className="footer__image" />
         </a>
         <a 
-          href="https://discord.gg/ZmQ7v5"
+          href="https://discord.gg/sC7Rzd"
           target="_blank"
           rel="noopener noreferrer"
           className="footer__link"
