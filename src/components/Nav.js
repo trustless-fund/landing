@@ -1,10 +1,24 @@
 import React, {Component} from 'react';
+import smoothscroll from 'smoothscroll-polyfill';
 
 import lock from '../assets/logo-circle.svg';
 
 import '../layout/components/nav.sass';
 
 class Nav extends Component {
+  componentDidMount = () => {
+    smoothscroll.polyfill();
+    this.learnMoreOnClick();
+  }
+
+  learnMoreOnClick = () => {
+    const learnMoreLink = document.querySelector('.nav__link--learn-more');
+    const learnMore = document.querySelector('#learn-more');
+    learnMoreLink.addEventListener('click', () => {
+      learnMore.scrollIntoView({behavior: 'smooth', block: 'center'});
+    });
+  }
+
   render() {
     return(
       <nav className="nav">
@@ -15,6 +29,9 @@ class Nav extends Component {
             className="nav__logo" />
           Trustless Fund
         </h1>
+        <p className="nav__link nav__link--learn-more">
+          Learn More
+        </p>
         <a 
           className="nav__link"
           href="https://medium.com/trustless-fund"
